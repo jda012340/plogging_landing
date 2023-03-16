@@ -94,9 +94,10 @@ main .page4 ul li h2 {
 }
 main .page4 ul li p{}
 /* 작은선물 *//* 작은선물 *//* 작은선물 *//* 작은선물 *//* 작은선물 */
-main .page5 {}
-main .page5::after {
-    content:''; display:block; width:70%; height:400px; margin:0 auto; background-image:url(../images/zerowaste.png); background-repeat:no-repeat;
-}
+main .page5 {text-align:center;}
 main .page5 h1 {}
-main .page5 h1 p {}
+main .page5 p {}
+main .page5 p:first-of-type {
+    margin:0 auto;
+    width:80%; height:600px; background-image:url(../images/zerowaste.png); background-repeat:no-repeat; background-size: cover; background-position: center -209px;
+}
