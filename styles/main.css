@@ -26,7 +26,7 @@ main {}
 .page_option .title, .page_option .title span {
     font-family:EF_jejudoldam; font-size:3.5rem; color:#2e892e;
 }
-.page_option > p {font-size:1.6rem; line-height:1.6; font-weight: 500; color:#fff;}
+.page_option > p, .page_option > p span {font-size:1.6rem; line-height:1.6; font-weight: 500; color:#fff;}
 /* 고정 후원버튼 *//* 고정 후원버튼 *//* 고정 후원버튼 *//* 고정 후원버튼 */
 main .sign_up {}
 main .sign_up p {}
@@ -59,6 +59,8 @@ main .page3 {}
 main .page3 h1 {}
 main .page3 h1 span {}
 main .page3 p {}
+main .page3 p span {color:#ffb127; font-weight:700; /* background:url(../images/span_bg.png) no-repeat; background-size:cover; background-position: 100px 100px; */
+}
 /* 걷고 담고 비우고 *//* 걷고 담고 비우고 *//* 걷고 담고 비우고 */
 main .page4 {}
 main .page4 h1 {}
@@ -88,7 +90,7 @@ main .page4 ul li:last-child::before {
     content:''; background-image: url(../images/clean.jpg); 
 }
 main .page4 ul li h2 {
-    font-size:1.4rem; font-weight:800;
+    font-size:1.4rem; font-weight:800; margin-bottom:10px;
 }
 main .page4 ul li p{}
 /* 작은선물 *//* 작은선물 *//* 작은선물 *//* 작은선물 *//* 작은선물 */
