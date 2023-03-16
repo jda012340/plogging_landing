@@ -95,6 +95,8 @@ main .page4 ul li h2 {
 main .page4 ul li p{}
 /* 작은선물 *//* 작은선물 *//* 작은선물 *//* 작은선물 *//* 작은선물 */
 main .page5 {}
+main .page5::after {
+    content:''; display:block; width:70%; height:400px; margin:0 auto; background-image:url(../images/zerowaste.png); background-repeat:no-repeat;
+}
 main .page5 h1 {}
 main .page5 h1 p {}
-main .page5 h1 p:last-child {}
