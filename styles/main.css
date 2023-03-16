@@ -1,0 +1,98 @@
+body {background:url(../images/paper_bg.jpg) ; background-size: 300px;}
+body > * {
+    width:1200px; margin:0 auto; text-align: center;
+}
+header {}
+header h1 {}
+header h1 a {}
+header nav {
+    background-color: greenyellow;
+    display:flex; flex-flow:row nowrap; justify-content:space-between;
+}
+header nav a {
+    background-color:#1e561e;
+    width:16.66%; padding:15px 0;
+    font-family:EF_jejudoldam; font-size:1.3rem; color:#fff;
+}
+main {}
+/* 페이지 공통 설정 *//* 페이지 공통 설정 *//* 페이지 공통 설정 */
+.page_option {
+    padding:180px 0 200px; margin-bottom: 20px; background-color:#1e561e;
+    border-radius: 100px;
+}
+.page_option .title {
+    background:url(../images/title_bg.png) no-repeat; background-position: center -30px; background-size: 736px; padding: 18px 0; margin-bottom:40px;
+}
+.page_option .title, .page_option .title span {
+    font-family:EF_jejudoldam; font-size:3.5rem; color:#2e892e;
+}
+.page_option > p {font-size:1.6rem; line-height:1.6; font-weight: 500; color:#fff;}
+/* 고정 후원버튼 *//* 고정 후원버튼 *//* 고정 후원버튼 *//* 고정 후원버튼 */
+main .sign_up {}
+main .sign_up p {}
+main .sign_up p:first-child {}
+main .sign_up p:last-child {}
+/* 메인페이지 *//* 메인페이지 *//* 메인페이지 *//* 메인페이지 *//* 메인페이지 */
+main .page1 {
+    background-color: rgba(0,0,0,0);
+    background-image:url(../images/지구일러스트.png); background-repeat:no-repeat; background-size:60%; background-position:center 290px;
+    height:800px; overflow: hidden; border-radius: 100%;
+}
+main .page1 h1 {}
+main .page1 h1 span:first-child {
+    color:#ffb127;
+}
+main .page1 h1 span:last-child {
+    color:#71c9ff;
+}
+main .page1 p {
+    margin-top:20px; font-family:KOTRAHOPE; font-size:1.6rem; color:#1e561e;
+}
+/* main .page1 p img {width:100%;} */
+/* p-log *//* p-log *//* p-log *//* p-log *//* p-log *//* p-log *//* p-log */
+main .page2 {}
+main .page2 iframe {
+    width:75%; height:460px;
+}
+/* 플로깅이란? *//* 플로깅이란? *//* 플로깅이란? *//* 플로깅이란? *//* 플로깅이란? */
+main .page3 {}
+main .page3 h1 {}
+main .page3 h1 span {}
+main .page3 p {}
+/* 걷고 담고 비우고 *//* 걷고 담고 비우고 *//* 걷고 담고 비우고 */
+main .page4 {}
+main .page4 h1 {}
+main .page4 h1 span {}
+main .page4 h1 span:last-child {}
+main .page4 ul {
+    background-color: cadetblue;
+    width:80%; margin:0 auto;
+    display: flex; flex-flow:row nowrap; justify-content: space-between;
+}
+main .page4 ul li {
+    background-color: aquamarine;
+    width:31%;
+}
+main .page4 ul li::before {
+    content:''; width:100%; height:250px; display: block;
+    background-repeat: no-repeat; background-position: center; background-size: cover; border-radius: 20px; margin-bottom:20px;
+}
+main .page4 ul li:first-child::before {
+    background-image: url(../images/walk.jpg);
+}
+main .page4 ul li:nth-child(2)::before {
+    content:''; background-image: url(../images/put.jpg); background-position: -409px -3px; background-size: 739px;
+
+}
+main .page4 ul li:last-child::before {
+    content:''; background-image: url(../images/clean.jpg); 
+}
+main .page4 ul li h2 {
+    font-size:1.4rem; font-weight:800;
+}
+main .page4 ul li p{}
+/* 작은선물 *//* 작은선물 *//* 작은선물 *//* 작은선물 *//* 작은선물 */
+main .page5 {}
+main .page5 h1 {}
+main .page5 h1 p {}
+main .page5 h1 p:last-child {}

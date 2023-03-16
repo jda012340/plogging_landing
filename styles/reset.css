@@ -1,0 +1,42 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Noto+Sans+KR:wght@100;400;700;900&display=swap'); */
+@font-face {
+    font-family: 'NanumSquareNeo-Variable';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_11-01@1.0/NanumSquareNeo-Variable.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'EF_jejudoldam';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2210-EF@1.0/EF_jejudoldam.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'KOTRAHOPE';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2110@1.0/KOTRAHOPE.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+* {box-sizing:border-box;}
+html,body,h1,h2,h3,h4,h5,h6,
+p,ul,ol,li,blockquote,dl,dt,dd,address,video
+strong,em,del,sup,sub,s,q,img,a,
+table,tr,th,td,thead,tbody,tfoot,
+form,input,fieldset,legend,button,label,textarea,option,select,
+nav,header,footer,article,section,aside,figure,figcaption,main,div,span {
+    font-family:'NanumSquareNeo-Variable', "Font Awesome 5 Free", "Font Awesome 5 Brands";
+    margin:0; padding:0;
+    font-size:1.0rem;
+    font-weight:normal;
+    font-style:normal;
+    line-height:1.0;
+    list-style:none;
+}
+a {text-decoration:none; color:#000}
+table,tr,th,td {border-collapse:collapse;}
+button {cursor:pointer; border:none; background:none;}
+fieldset {border:none;}
+legend {display:none;}
+.skip {display:none;}
+.awesome::after {font-weight:600;}
+.awesome::before {font-weight:600;}
